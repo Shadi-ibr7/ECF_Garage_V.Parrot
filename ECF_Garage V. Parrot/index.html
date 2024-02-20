@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<header class="header">
+
+    <section class="flex">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"> garage <span>v.parrot</span></a>
+
+        <nav class="navbar">
+            <a href="#home">Accueil</a>
+            <a href="#vehicles">Véhicles</a>
+            <a href="#services">Services</a>
+            <a href="#featured">Vedette</a>
+            <a href="#reviews">Avis</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div id="login-btn">
+            <button class="btn">connexion</button>
+            <i class="far fa-user"></i>
+        </div>
+
+    </section>
+
+</header> 
+    
+<div class="login-form-container">
+
+    <span id="close-login-form" class="fas fa-times"></span>
+
+    <form action="">
+        <h3>user login</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p> forget your password <a href="#">click here</a> </p>
+        <input type="submit" value="login" class="btn">
+        <p>or login with</p>
+        <div class="buttons">
+            <a href="#" class="btn"> google </a>
+            <a href="#" class="btn"> facebook </a>
+        </div>
+        <p> don't have an account <a href="#">create one</a> </p>
+    </form>
+
+</div>
+
+<section class="home" id="home">
+
+    <h3 data-speed="-2" class="home-parallax">find your car</h3>
+
+    <img data-speed="5" class="home-parallax" src="image/home-img.png" alt="">
+
+    <a data-speed="7" href="#" class="btn home-parallax">explore cars</a>
+
+</section>
+
+<div class="icons-container">
+
+    <section class="box-container">
+
+    
+        <div class="box">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>150+</h3>
+                <p>voitures vendues</p>
+            </div>
+        </div>
+    
+        <div class="box">
+            <i class="fas fa-users"></i>
+            <div class="content">
+                <h3>320+</h3>
+                <p>clients satisfaits</p>
+            </div>
+        </div>
+    
+        <div class="box">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>40+</h3>
+                <p>nouvelles voitures</p>
+            </div>
+        </div>
+    
+    </section>
+
+</div>
+
+<section class="vehicles" id="vehicles">
+
+    <h1 class="heading"><span>vehicles populaire</span> </h1>
+
+    <div class="swiper vehicles-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-1.png" alt="">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"> <span>price : </span> €62,000/- </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatique
+                        <span class="fas fa-circle"></span> essence
+                        <span class="fas fa-circle"></span> 156000km
+                    </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-2.png" alt="">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"> <span>price : </span> €62,000/- </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatique
+                        <span class="fas fa-circle"></span> essence
+                        <span class="fas fa-circle"></span> 160000km
+                    </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-3.png" alt="">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"> <span>price : </span> €62,000/- </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatique
+                        <span class="fas fa-circle"></span> essence
+                        <span class="fas fa-circle"></span> 100000km
+                    </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-4.png" alt="">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"> <span>price : </span> €62,000/- </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatique
+                        <span class="fas fa-circle"></span> essence
+                        <span class="fas fa-circle"></span> 110000km
+                    </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-5.png" alt="">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"> <span>price : </span> €62,000/- </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatique
+                        <span class="fas fa-circle"></span> essence
+                        <span class="fas fa-circle"></span> 120000km
+                    </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-6.png" alt="">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"> <span>price : </span> €62,000/- </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatique
+                        <span class="fas fa-circle"></span> essence
+                        <span class="fas fa-circle"></span> 90000km
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="services" id="services">
+
+    <h1 class="heading"> <span>Nos services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-car"></i>
+            <h3>vente de voiture</h3>
+            <p>On vent votre voiture le plus rapidement possible</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-tools"></i>
+            <h3>mécanique</h3>
+            <p>On s'en occupe de la Motorisation,
+                Système de freinage,
+                Direction et Suspension,
+                Échappement,
+                Démarrage,
+                Pneumatique</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-car-crash"></i>
+            <h3>carrosserie</h3>
+            <p>Vous voulez changer votre peinture, vitrage ou autre on s'en occupe</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-car-battery"></i>
+            <h3>remplacement de la batterie</h3>
+            <p>on remplace les batterie par des neufs</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-gas-pump"></i>
+            <h3>vidange</h3>
+            <p>on fait les vidange aussi</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>notre Vedette</span></h1>
+
+    <div class="swiper featured-slider">
+
+       <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/car-1.png" alt="">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€55,000/-</div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-2.png" alt="">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€30,000/-</div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-3.png" alt="">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€20,000/-</div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-4.png" alt="">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€50,000/-</div>
+                </div>
+            </div>
+
+       </div>
+
+       <div class="swiper-pagination"></div>
+
+    </div>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-5.png" alt="">
+                 <div class="content">
+                     <h3>new model</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">€35,000/-</div>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-6.png" alt="">
+                 <div class="content">
+                     <h3>new model</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">€30,000/-</div>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-7.png" alt="">
+                 <div class="content">
+                     <h3>new model</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">€25,000/-</div>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-8.png" alt="">
+                 <div class="content">
+                     <h3>new model</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">€28,000/-</div>
+                 </div>
+             </div>
+ 
+        </div>
+ 
+        <div class="swiper-pagination"></div>
+ 
+     </div>
+
+</section>
+
+<div class="newsletter-container">
+
+    <section class="newsletter">
+    
+        <h3>abonnez-vous pour les dernières mises à jour</h3>
+    
+       <form action="">
+            <input type="email" placeholder="enter your email">
+            <input type="submit" value="subscribe">
+       </form>
+    
+    </section>
+
+</div>
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>avis du client</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pic-1.png" alt="">
+                <div class="content">
+                    <p>Je tiens à exprimer ma grande satisfaction envers le Garage V.Parrot.</p>
+                    <h3>Noé Mathieu</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png" alt="">
+                <div class="content">
+                    <p>Je suis très contente d'avoir choisi le Garage V.Parrot pour la réparation de ma voiture.</p>
+                    <h3>Isabelle Dupont</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png" alt="">
+                <div class="content">
+                    <p>Je tenais à remercier le Garage V.Parrot pour leur excellent travail.</p>
+                    <h3>Thomas Leclerc</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-4.png" alt="">
+                <div class="content">
+                    <p>Très professionnel et d'une grande humanité</p>
+                    <h3>Thibault Caudron</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-5.png" alt="">
+                <div class="content">
+                    <p>Service rapide et efficace, je recommande</p>
+                    <h3>Eva Payet</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-6.png" alt="">
+                <div class="content">
+                    <p>J'ai acheté une voiture d'occasion, je suis très satisfaite</p>
+                    <h3>Margot Lemaire</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"><span>contact-nous</span></h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1444.7213280914516!2d1.4315234712510108!3d43.597324152444024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebb70f60af421%3A0x7f5c709cbf51f4f8!2s17%20Rue%20Joseph%20Vie%2C%2031300%20Toulouse!5e0!3m2!1sfr!2sfr!4v1708458997863!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+            <h3>Entrer en contact</h3>
+            <input type="text" placeholder="nom et prenom" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="tel" placeholder="sujet" class="box">
+            <textarea placeholder="votre message" class="box" cols="30" rows="10"></textarea>
+            <input type="submit" value="envoyer le message" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<footer class="footer" id="footer">
+
+    <section class="box-container">
+
+        <div class="box">
+            <h3>horaire d'ouvertur</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Lun. : 08h30-12h00, 14h00 - 18h30 </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Mar. : 08h30-12h00, 14h00 - 18h30 </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Mer. : 08h30-12h00, 14h00 - 18h30 </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Jeu. : 08h30-12h00, 14h00 - 18h30 </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Ven. : 08h30-12h00, 14h00 - 18h30 </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Sam. : 08h30-12h00 </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Lun. : Fermé </a>
+        </div>
+
+        <div class="box">
+            <h3>Liens rapides</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> Accueil</a>
+            <a href="#vehicles"> <i class="fas fa-arrow-right"></i> Véhicles</a>
+            <a href="#services"> <i class="fas fa-arrow-right"></i> Services</a>
+            <a href="#featured"> <i class="fas fa-arrow-right"></i> Vedette</a>
+            <a href="#reviews"> <i class="fas fa-arrow-right"></i> Avis</a>
+            <a href="#contact"> <i class="fas fa-arrow-right"></i> contact</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Toulous, France </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+        </div>
+
+    </section>
+
+    <div class="credit"> <p>&copy; 2023 Chadi Ibrahim | Tous droits réservés</p> </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
