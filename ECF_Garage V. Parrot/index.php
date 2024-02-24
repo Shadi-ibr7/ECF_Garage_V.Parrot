@@ -1,81 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-<body>
-    
-<header class="header">
-
-    <section class="flex">
-
-        <div id="menu-btn" class="fas fa-bars"></div>
-
-        <a href="#" class="logo"> garage <span>v.parrot</span></a>
-
-        <nav class="navbar">
-            <a href="#home">Accueil</a>
-            <a href="#vehicles">Véhicles</a>
-            <a href="#services">Services</a>
-            <a href="#featured">Vedette</a>
-            <a href="#reviews">Avis</a>
-            <a href="#contact">contact</a>
-        </nav>
-
-        <div id="login-btn">
-            <button class="btn">connexion</button>
-            <i class="far fa-user"></i>
-        </div>
-
-    </section>
-
-</header> 
-    
-<div class="login-form-container">
-
-    <span id="close-login-form" class="fas fa-times"></span>
-
-    <form action="">
-        <h3>user login</h3>
-        <input type="email" placeholder="email" class="box">
-        <input type="password" placeholder="password" class="box">
-        <p> forget your password <a href="#">click here</a> </p>
-        <input type="submit" value="login" class="btn">
-        <p>or login with</p>
-        <div class="buttons">
-            <a href="#" class="btn"> google </a>
-            <a href="#" class="btn"> facebook </a>
-        </div>
-        <p> don't have an account <a href="#">create one</a> </p>
-    </form>
-
-</div>
+<?php require 'header.php'; ?> 
 
 <section class="home" id="home">
 
-    <h3 data-speed="-2" class="home-parallax">find your car</h3>
+    <h3 data-speed="-2" class="home-parallax">trouvez votre voiture</h3>
 
     <img data-speed="5" class="home-parallax" src="image/home-img.png" alt="">
 
-    <a data-speed="7" href="#" class="btn home-parallax">explore cars</a>
+    <a data-speed="7" href="#" class="btn home-parallax">explorer les voitures</a>
 
 </section>
 
 <div class="icons-container">
 
     <section class="box-container">
-
     
         <div class="box">
             <i class="fas fa-car"></i>
@@ -105,111 +42,7 @@
 
 </div>
 
-<section class="vehicles" id="vehicles">
-
-    <h1 class="heading"><span>vehicles populaire</span> </h1>
-
-    <div class="swiper vehicles-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide box">
-                <img src="image/vehicle-1.png" alt="">
-                <div class="content">
-                    <h3>new model</h3>
-                    <div class="price"> <span>price : </span> €62,000/- </div>
-                    <p>
-                        new
-                        <span class="fas fa-circle"></span> 2021
-                        <span class="fas fa-circle"></span> automatique
-                        <span class="fas fa-circle"></span> essence
-                        <span class="fas fa-circle"></span> 156000km
-                    </p>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img src="image/vehicle-2.png" alt="">
-                <div class="content">
-                    <h3>new model</h3>
-                    <div class="price"> <span>price : </span> €62,000/- </div>
-                    <p>
-                        new
-                        <span class="fas fa-circle"></span> 2021
-                        <span class="fas fa-circle"></span> automatique
-                        <span class="fas fa-circle"></span> essence
-                        <span class="fas fa-circle"></span> 160000km
-                    </p>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img src="image/vehicle-3.png" alt="">
-                <div class="content">
-                    <h3>new model</h3>
-                    <div class="price"> <span>price : </span> €62,000/- </div>
-                    <p>
-                        new
-                        <span class="fas fa-circle"></span> 2021
-                        <span class="fas fa-circle"></span> automatique
-                        <span class="fas fa-circle"></span> essence
-                        <span class="fas fa-circle"></span> 100000km
-                    </p>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img src="image/vehicle-4.png" alt="">
-                <div class="content">
-                    <h3>new model</h3>
-                    <div class="price"> <span>price : </span> €62,000/- </div>
-                    <p>
-                        new
-                        <span class="fas fa-circle"></span> 2021
-                        <span class="fas fa-circle"></span> automatique
-                        <span class="fas fa-circle"></span> essence
-                        <span class="fas fa-circle"></span> 110000km
-                    </p>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img src="image/vehicle-5.png" alt="">
-                <div class="content">
-                    <h3>new model</h3>
-                    <div class="price"> <span>price : </span> €62,000/- </div>
-                    <p>
-                        new
-                        <span class="fas fa-circle"></span> 2021
-                        <span class="fas fa-circle"></span> automatique
-                        <span class="fas fa-circle"></span> essence
-                        <span class="fas fa-circle"></span> 120000km
-                    </p>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img src="image/vehicle-6.png" alt="">
-                <div class="content">
-                    <h3>new model</h3>
-                    <div class="price"> <span>price : </span> €62,000/- </div>
-                    <p>
-                        new
-                        <span class="fas fa-circle"></span> 2021
-                        <span class="fas fa-circle"></span> automatique
-                        <span class="fas fa-circle"></span> essence
-                        <span class="fas fa-circle"></span> 90000km
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="swiper-pagination"></div>
-
-    </div>
-
-</section>
+<?php require 'voiture.php'; ?>
 
 <section class="services" id="services">
 
@@ -544,51 +377,7 @@
 
 </section>
 
-<footer class="footer" id="footer">
-
-    <section class="box-container">
-
-        <div class="box">
-            <h3>horaire d'ouvertur</h3>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Lun. : 08h30-12h00, 14h00 - 18h30 </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Mar. : 08h30-12h00, 14h00 - 18h30 </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Mer. : 08h30-12h00, 14h00 - 18h30 </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Jeu. : 08h30-12h00, 14h00 - 18h30 </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Ven. : 08h30-12h00, 14h00 - 18h30 </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Sam. : 08h30-12h00 </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Lun. : Fermé </a>
-        </div>
-
-        <div class="box">
-            <h3>Liens rapides</h3>
-            <a href="#home"> <i class="fas fa-arrow-right"></i> Accueil</a>
-            <a href="#vehicles"> <i class="fas fa-arrow-right"></i> Véhicles</a>
-            <a href="#services"> <i class="fas fa-arrow-right"></i> Services</a>
-            <a href="#featured"> <i class="fas fa-arrow-right"></i> Vedette</a>
-            <a href="#reviews"> <i class="fas fa-arrow-right"></i> Avis</a>
-            <a href="#contact"> <i class="fas fa-arrow-right"></i> contact</a>
-        </div>
-
-        <div class="box">
-            <h3>contact info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-            <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Toulous, France </a>
-        </div>
-
-        <div class="box">
-            <h3>contact info</h3>
-            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-        </div>
-
-    </section>
-
-    <div class="credit"> <p>&copy; 2023 Chadi Ibrahim | Tous droits réservés</p> </div>
-
-</footer>
+<?php require 'footer.php'; ?>
 
 
 
